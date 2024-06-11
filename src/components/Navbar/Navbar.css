@@ -25,12 +25,19 @@
     margin: 0 auto;
 }
 
+
 .desktop-menu a {
     text-decoration: none;
     color: white;
     font-weight: bold;
     transition: color 0.3s ease;
 }
+
+.desktop-menu a:hover {
+    color: yellow;
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid yellow;
+  }
 
 
 .navbar-container.scrolled .desktop-menu a {

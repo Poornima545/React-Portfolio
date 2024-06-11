@@ -1,10 +1,6 @@
 #home{
-  background-image: url(../../assets/home-img.jpg);
- background-repeat: no-repeat;
- background-size: cover;
- background-position: center;
+  background-color: #5e42a6;
 }
-
 
 .home-container {
   display: flex;
@@ -124,10 +120,6 @@
 
 /*home2 style*/
 
-.home2-container {
-  background-color: #181226;
-}
-
 .home2-container h1 {
   margin: 10rem 0 2rem 10rem;
 }
@@ -197,30 +189,52 @@
 
 .home2-social {
   text-align: center;
-  top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%; /* Ensure the section takes up the full height */
 }
 
 .home2-social h1 {
-  text-transform: uppercase;
+  font-size: 24px;
+  margin-bottom: 10px; /* Add some bottom margin for spacing */
 }
 
-.social-para {
-  margin: 2rem 0;
+.home2-social .social-para {
+  color: #666;
+  font-size: 16px;
 }
 
 .social-links {
-  display: flex;
-  gap: 20px;
-  text-decoration: none;
-  list-style: none;
-  justify-content: center;
+  list-style-type: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.social-icons {
+  display: inline-block;
+  margin: 0 10px;
 }
 
 .icon-colour {
-  border: 1px solid white;
-  border-radius: 50%;
-  padding: 0.75rem;
-  background-color: white;
-  color: black;
-  font-size: 1rem;
+  color: #333;
+  font-size: 24px;
+  transition: color 0.3s ease;
+}
+
+.icon-colour:hover {
+  color: #666;
+}
+
+/* Media query for mobile devices */
+@media screen and (max-width: 768px) {
+  .social-icons {
+    margin: 0 5px;
+  }
+
+  .icon-colour {
+    font-size: 20px;
+  }
+
 }

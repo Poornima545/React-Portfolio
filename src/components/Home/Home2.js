@@ -31,16 +31,16 @@ function Home2() {
         <p className='social-para'>Feel free to <span style={{ color: 'yellow' }}>connect</span> with me</p>
         <ul className='social-links'>
           <li className='social-icons'>
-            <a href='https://github.com/Poornima545' target='_blank' className='icon-colour'><AiFillGithub /></a>
+            <a href='https://github.com/Poornima545' rel="noreferrer" target='_blank' className='icon-colour'><AiFillGithub /></a>
           </li>
           <li className='social-icons'>
-            <a href='https://x.com/Poornima545' target='_blank' className='icon-colour'> <AiOutlineTwitter /></a>
+            <a href='https://x.com/Poornima545' rel="noreferrer" target='_blank' className='icon-colour'> <AiOutlineTwitter /></a>
           </li>
           <li className='social-icons'>
-            <a href='https://linkedin.com/in/poornima545' target='_blank' className='icon-colour'><FaLinkedinIn /></a>
+            <a href='https://linkedin.com/in/poornima545' rel="noreferrer" target='_blank' className='icon-colour'><FaLinkedinIn /></a>
           </li>
           <li className='social-icons'>
-            <a href='/' target='_blank' className='icon-colour'><AiFillInstagram /></a>
+            <a href='/'  rel="noreferrer" target='_blank' className='icon-colour'><AiFillInstagram /></a>
           </li>
         </ul>
       </div>

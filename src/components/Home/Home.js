@@ -23,7 +23,7 @@ function Home() {
         </div>
       </div>
       <div>
-        <Home2/>
+        <Home2 />
       </div>
     </section>
   );

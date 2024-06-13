@@ -37,7 +37,7 @@
     color: yellow;
     padding-bottom: 0.5rem;
     border-bottom: 3px solid yellow;
-  }
+}
 
 
 .navbar-container.scrolled .desktop-menu a {
@@ -83,6 +83,12 @@
 
 /* Responsive styles */
 @media (max-width: 768px) {
+    .navbar-container {
+        display: flex;
+        justify-content: space-between;
+        padding: 1rem;
+    }
+
     .desktop-menu {
         display: none;
     }

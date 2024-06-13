@@ -1,20 +1,22 @@
-#home{
+#home {
   background-color: #5e42a6;
-}
-
-.home-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.home-content {
-  max-width: 800px;
-  margin: 10rem 0 5rem 0;
 }
 
 .yellow {
   color: #fdd835;
+}
+
+.home-content,
+.image-container {
+  display: inline-block;
+  vertical-align: top;
+  width: 48%;
+  margin: 1%;
+  padding-top: 10rem;
+}
+
+.home-content {
+  padding: 10rem 0 0 10rem;
 }
 
 .hireme-btn {
@@ -35,206 +37,162 @@
 .homeImg {
   width: 100%;
   max-width: 400px;
-  margin-top: 8rem;
 }
 
-/* Media queries for responsiveness */
+.Typewriter__wrapper {
+  font-size: 1.5em;
+  color: yellow;
+  font-weight: 600;
+}
 
-@media only screen and (max-width: 600px) {
+.Typewriter__cursor {
+  font-size: 2em;
+  color: yellow;
+}
+
+@media (max-width: 768px) {
   .home-container {
+    display: flex;
     flex-direction: column;
-  }
-
-  .hello {
-    font-size: 2rem;
-  }
-
-  .home-section {
-    font-size: 2rem;
-  }
-
-  .hireme-btn {
-    font-size: 0.9rem;
-    padding: 8px 16px;
-  }
-
-  .homeImg {
-    max-width: 300px;
-  }
-}
-
-/* Medium devices (tablets, 600px to 768px) */
-@media only screen and (min-width: 601px) and (max-width: 768px) {
-  .home-container {
-    flex-direction: column;
-  }
-
-  .hello {
-    font-size: 1.75rem;
-  }
-
-  .home-section {
-    font-size: 2.25rem;
-  }
-
-  .hireme-btn {
-    font-size: 1rem;
-    padding: 9px 18px;
-  }
-
-  .homeImg {
-    max-width: 350px;
-  }
-}
-
-/* Large devices (desktops, 768px and up) */
-@media only screen and (min-width: 769px) {
-  .home-container {
-    flex-direction: row;
     align-items: center;
-    justify-content: space-around;
   }
 
-  .hello {
-    font-size: 2rem;
-  }
-
-  .home-section {
-    font-size: 2.5rem;
-  }
-
-  .hireme-btn {
-    font-size: 1.1rem;
-    padding: 10px 20px;
+  .home-content {
+    /* text-align: center; */
+    width: 100%;
+    padding-left: 5rem;
   }
 
   .image-container {
-    margin-top: 0;
-  }
-
-  .homeImg {
-    max-width: 400px;
+    padding-top: 30px;
+    width: 60%;
   }
 }
 
 
 /*home2 style*/
 
-.home2-container h1 {
-  margin: 10rem 0 2rem 10rem;
+.home2-container {
+  padding: 50px 20px;
+  margin: 20px;
 }
 
-.yellow {
-  color: #fdd835;
+.home2-container h1 {
+  font-size: 2.5em;
+  margin-bottom: 40px;
+  text-align: start;
+  padding-left: 3em;
+}
+
+p .yellow {
+  font-size: 1rem;
 }
 
 .home2-content {
-  display: flex;
-  gap: 70px;
-  padding: 20px;
+  text-align: left;
+}
+
+.home2-text,
+.avatar-container {
+  display: inline-block;
+  vertical-align: top;
+  width: 48%;
+  margin: 1%;
 }
 
 .home2-text {
-  width: 100%;
-  max-width: 700px;
+  max-width: 600px;
 }
 
 .home2-body {
-  font-size: 1.2rem;
-  padding: 0 60px;
+  font-size: 1.2em;
+  line-height: 1.6;
 }
 
-.home2-body .yellow {
-  font-size: 1.2rem;
+.avatar-container {
+  text-align: center;
 }
 
 .avatar {
-  width: 100%;
-  max-width: 200px;
   border-radius: 50%;
+  width: 50%;
+  max-width: 250px;
 }
 
-/* Media queries for responsiveness */
-@media only screen and (max-width: 768px) {
+@media (max-width: 768px) {
   .home2-container {
-    margin-top: 0;
-    padding: 2rem;
+    padding: 20px;
+    margin-top: 100px;
+    margin-bottom: 0;
   }
 
-  h1 {
-    font-size: 2.5rem;
+  .home2-container h1 {
+    padding: 0;
     text-align: center;
   }
 
-  p {
-    font-size: 1rem;
-  }
-
   .home2-content {
-    flex-direction: column;
-    align-items: center;
+    text-align: center;
   }
 
-  .home2-body {
-    font-size: 1rem;
-    padding: 0 10px;
+  .home2-text,
+  .avatar-container {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
   }
 
   .avatar {
     max-width: 200px;
+    margin-top: 50px;
+  }
+
+  .home2-body {
+    text-align: start;
+    padding-left: 20px;
   }
 }
 
-/* social links */
+/*social links*/
 
 .home2-social {
+  margin-top: 50px;
   text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 100%; /* Ensure the section takes up the full height */
 }
 
 .home2-social h1 {
-  font-size: 24px;
-  margin-bottom: 10px; /* Add some bottom margin for spacing */
+  text-transform: uppercase;
+  text-align: center;
+  padding: 0;
+  margin-bottom: 10px;
 }
 
-.home2-social .social-para {
-  color: #666;
-  font-size: 16px;
+.social-para {
+  font-size: 1.2em;
 }
 
 .social-links {
-  list-style-type: none;
+  list-style: none;
   padding: 0;
-  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
 }
 
-.social-icons {
-  display: inline-block;
-  margin: 0 10px;
-}
-
-.icon-colour {
-  color: #333;
-  font-size: 24px;
+.social-links a {
+  font-size: 2em;
+  border: 1px solid;
+  padding: 0.50rem;
+  color: black;
+  background-color: white;
+  border-radius: 50%;
   transition: color 0.3s ease;
+  border-color: none;
 }
 
-.icon-colour:hover {
-  color: #666;
-}
-
-/* Media query for mobile devices */
-@media screen and (max-width: 768px) {
-  .social-icons {
-    margin: 0 5px;
-  }
-
-  .icon-colour {
-    font-size: 20px;
-  }
-
+.social-links a:hover {
+  color: black;
+  background-color: yellow;
+  border-color: none;
 }

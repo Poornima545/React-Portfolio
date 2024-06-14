@@ -1,9 +1,39 @@
-.footer{
-    width: 100vw;
-    height: 4rem;
-    display: flex;
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(10, 4, 22);
+  bottom: 0;
+  padding: 1rem 2rem;
+}
+
+.footer h3 {
+  font-size: 1em;
+  color: white;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.footer-icons {
+  display: flex;
+  gap: 1rem;
+  padding: 0;
+  list-style: none;
+}
+
+.icon {
+  color: white;
+  font-size: 1rem;
+}
+
+
+@media (max-width: 767px) {
+  .footer {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer-icons {
     justify-content: center;
-    align-items: center;
-    font-size: small;
-    font-weight: 300;
+  }
+
 }

@@ -8,7 +8,7 @@ function About() {
     <>
       <div className='about-container'>
         <div className='about-content'>
-          <h1 className='knowMe'>Know Who <strong className='yellow'>I'M</strong></h1>
+          <h1 className='knowMe'>Know Who <strong className='yellow' style={{ fontWeight: '200', fontSize: '2.2rem' }}>I'M</strong></h1>
           <p className='about-para'>Hi Everyone, <br /> I am <span className='yellow' style={{ fontSize: '20px' }}>Poornima Gowda</span> from Chitradurga, Karnataka, India.</p>
           I graduated with a Bachelor of Engineering in Computer Science and Engineering from S.J.M Institute of Technology, Chitradurga, in 2023.
           <br />

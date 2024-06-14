@@ -15,11 +15,11 @@ function Home2() {
           <p className='home2-body'>
             I fell in love with programming and I have at least learnt something, I think... 🤷‍♂️
             <br /><br />
-            I am fluent in classics like <span className='yellow'> HTML5, CSS3, and Javascript.</span>
+            I am fluent in classics like <i className='yellow'> HTML5, CSS3, and Javascript.</i>
             <br /><br />
-            My field of Interest's are building new <span className='yellow'>Web Technologies and Products.</span>
+            My field of Interest's are building new <i className='yellow'>Web Technologies and Products.</i>
             <br /><br />
-            Whenever possible, I also apply my passion for developing products with Modern <span className='yellow'> Javascript Library and Frameworks like React.js.</span>
+            Whenever possible, I also apply my passion for developing products with Modern <i className='yellow'> Javascript Library and Frameworks like React.js.</i>
           </p>
         </div>
         <div className='avatar-container'>
@@ -40,7 +40,7 @@ function Home2() {
             <a href='https://linkedin.com/in/poornima545' rel="noreferrer" target='_blank' className='icon-colour'><FaLinkedinIn /></a>
           </li>
           <li className='social-icons'>
-            <a href='/'  rel="noreferrer" target='_blank' className='icon-colour'><AiFillInstagram /></a>
+            <a href='/' rel="noreferrer" target='_blank' className='icon-colour'><AiFillInstagram /></a>
           </li>
         </ul>
       </div>

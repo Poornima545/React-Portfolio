@@ -37,7 +37,6 @@ function Navbar() {
                 <NavLink to='/about' className={getClassName} onClick={() => setMenuOpen(false)}>About</NavLink>
                 <NavLink to='/resume' className={getClassName} onClick={() => setMenuOpen(false)}>Resume</NavLink>
             </div>
-
             <div className="mobile-menu-icon" onClick={toggleMenu}>
                 <div className={`line ${menuOpen ? 'open' : ''}`}></div>
                 <div className={`line ${menuOpen ? 'open' : ''}`}></div>

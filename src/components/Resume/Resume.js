@@ -6,9 +6,9 @@ import ResumeImg from '../../assets/resumeImg.jpg';
 function Resume() {
     return (
         <div className='resume-container'>
-            <a href='/Poornima_SDE.pdf' download className='cv-link'>
+            <a href='/Poornima_SDE.pdf' download className='cv-link' target='_blank' rel='noopener noreferrer'>
                 <button className='cv-btn'>
-                    <AiOutlineDownload />
+                    <AiOutlineDownload className='download-icon' />
                     Download CV
                 </button>
             </a>

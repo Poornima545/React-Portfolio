@@ -1,0 +1,32 @@
+.bg-color {
+    background-color: rgb(209 250 229);
+}
+
+.gap {
+    gap: 50px;
+}
+
+.fs-72 {
+    font-size: 72px;
+}
+
+.home-container {
+    padding: 120px 0;
+}
+
+.tech-stack {
+    padding: 80px 32px;
+    background-color: rgb(248 250 252);
+}
+
+.technical {
+    padding: 64px 0;
+}
+
+.para {
+    color: #64748B;
+}
+
+.icon {
+    color: rgb(100 116 139);
+}

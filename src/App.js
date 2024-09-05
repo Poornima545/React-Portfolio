@@ -10,7 +10,7 @@ function App() {
       <Navbar />
       <TechStack />
       <About />
-     <Project/>
+      <Project />
     </div>
   );
 }

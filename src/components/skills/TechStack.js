@@ -1,12 +1,12 @@
 import React from 'react';
-import { DiJavascript1, DiReact, DiHtml5, DiGit, DiBootstrap } from "react-icons/di"
+import { DiJavascript1, DiReact, DiHtml5, DiBootstrap } from "react-icons/di"
 
 function TechStack() {
     return (
         <>
             <section id="tech-stack" className="tech-stack px-5">
                 <section>
-                    <h2 className="m-0 pb-3 border-bottom">Tech Stack</h2>
+                    <h2 className="m-0 pb-3 border-bottom fs-30">Tech Stack</h2>
                     <div className='technical row row-gap-4'>
                         <div className="col-md-4 col-sm-6">
                             <DiHtml5 size={80} className='text-success' />
@@ -32,11 +32,11 @@ function TechStack() {
                             <p className="mt-2 mb-0 para">Comfortable using Bootstrap to create responsive, mobile-first designs with pre-built components and utilities.</p>
                         </div>
 
-                        <div className="col-md-4 col-sm-6">
+                        {/* <div className="col-md-4 col-sm-6">
                             <DiGit size={80} className='text-success' />
                             <h4 className="text-uppercase fs-6 mt-4 mb-0">React</h4>
                             <p className="mt-2 mb-0 para">Advanced proficiency in React, developing efficient and interactive front-end applications with a strong emphasis on component-based architecture.</p>
-                        </div>
+                        </div> */}
                     </div>
                 </section>
             </section>

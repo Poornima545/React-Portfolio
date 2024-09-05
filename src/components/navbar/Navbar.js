@@ -6,16 +6,16 @@ export default function Navbar() {
         <>
             <section className='bg-color px-5'>
                 <header className='d-flex pb-5 pt-4 align-items-center gap'>
-                    <strong className='fs-2'>
+                    <strong className='fs-30'>
                         <span>Web</span>
                         <span className='text-success'>Dev</span>
                     </strong>
                     <nav>
-                        <ul className='d-flex list-unstyled fs-5 nav'>
-                            <li><a href="#home" className='nav-link text-dark'>Home</a></li>
-                            <li><a href="#tech-stack" className='nav-link text-dark'>Skills</a></li>
-                            <li><a href="#" className='nav-link text-dark'>About</a></li>
-                            <li><a href="#" className='nav-link text-dark'>Projects</a></li>
+                        <ul className='d-flex list-unstyled fs-18 nav'>
+                            <li><a href="#home" className='nav-link text-dark' rel="noreferrer">Home</a></li>
+                            <li><a href="#tech-stack" className='nav-link text-dark' rel="noreferrer">Skills</a></li>
+                            <li><a href="#about" className='nav-link text-dark' rel="noreferrer">About</a></li>
+                            <li><a href="#projects" className='nav-link text-dark' rel="noreferrer">Projects</a></li>
                         </ul>
                     </nav>
                 </header>

@@ -12,13 +12,14 @@ export default function SecondProject() {
                     <div className='d-flex align-items-center'>
                         <a href="https://www.example.com"
                             target="_blank"
-                            rel="noreferrer"
+                            rel="noopener noreferrer"
                             className='me-2 icon'>
                             <AiOutlineGlobal size={30} />
                         </a>
                         <a href="https://github.com/Poornima545"
                             target="_blank"
-                            rel="noreferrer" className='me-2 icon'>
+                            rel="noopener noreferrer"
+                            className='me-2 icon'>
                             <AiFillGithub size={30} />
                         </a>
                     </div>

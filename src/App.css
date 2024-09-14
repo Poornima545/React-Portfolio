@@ -75,3 +75,12 @@ body {
 .projects {
     padding: 62px 0;
 }
+
+.card-text{
+    font-size: 14px;
+}
+
+/* Resume */
+.resume-container{
+    padding: 100px 0;
+}

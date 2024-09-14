@@ -1,3 +1,4 @@
+import React from 'react';
 import SecondImage from '../../assets/pic02.webp'
 import { AiFillGithub, AiOutlineGlobal } from 'react-icons/ai';
 

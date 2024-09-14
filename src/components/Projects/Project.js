@@ -1,3 +1,4 @@
+import React from 'react';
 import FirstProject from "./FirstProject";
 import SecondProject from "./SecondProject";
 import ThirdProject from "./ThirdProject";

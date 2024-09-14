@@ -1,3 +1,4 @@
+import React from 'react';
 import FirstImage from '../../assets/pic01.webp';
 import { AiFillGithub, AiOutlineGlobal } from 'react-icons/ai';
 

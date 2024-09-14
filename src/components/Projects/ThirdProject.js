@@ -1,3 +1,4 @@
+import React from 'react';
 import ThirdImage from '../../assets/pic03.webp'
 import { AiFillGithub, AiOutlineGlobal } from 'react-icons/ai';
 

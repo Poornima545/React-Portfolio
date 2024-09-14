@@ -16,6 +16,7 @@ export default function Navbar() {
                             <li><a href="#tech-stack" className='nav-link text-dark' rel="noopener noreferrer">Skills</a></li>
                             <li><a href="#about" className='nav-link text-dark' rel="noopener noreferrer">About</a></li>
                             <li><a href="#projects" className='nav-link text-dark' rel="noopener noreferrer">Projects</a></li>
+                            <li><a href="#resume" className='nav-link text-dark' rel="noopener noreferrer">Resume</a></li>
                         </ul>
                     </nav>
                 </header>

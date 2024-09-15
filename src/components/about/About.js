@@ -7,7 +7,7 @@ function About() {
             <section id='about' className='about-container'>
                 <article className='about-content row align-items-center m-0'>
                     <article className='col-lg-6 p-0 text-center pb-5'>
-                        <img src={AboutImage} alt='About Image' className='aboutImg img-fluid' />
+                        <img src={AboutImage} alt='Poornima, a passionate web developer' className='aboutImg img-fluid' />
                     </article>
                     <article className='col-lg-6'>
                         <h2 className='fs-30 pb-4 mb-0 border-bottom'>About Me</h2>

@@ -11,9 +11,9 @@ function Home() {
                         <p className="fs-2 mt-3 mb-0 text-capitalize">Fron-End developer</p>
                         <p className="fs-5 m-0 text-capitalize">Turning ideas into interactive reality</p>
                         <ul className="mb-0 mt-3 d-flex list-unstyled">
-                            <li><a href="https://github.com/Poornima545" className="fs-3 me-3 icon" target="_blank" rel="noreferrer"><i className="bi bi-github"></i></a></li>
-                            <li><a href="https://linkedin.com/in/poornima545" className="fs-3 me-3 icon" target="_blank" rel="noreferrer"><i className="bi bi-linkedin"></i></a></li>
-                            <li><a href="https://x.com/Poornima545" className="fs-3 icon" target="_blank"><i className="bi bi-twitter" rel="noreferrer"></i></a></li>
+                            <li><a href="https://github.com/Poornima545" className="fs-3 me-3 icon" target="_blank" rel="noopener noreferrer"><i className="bi bi-github"></i></a></li>
+                            <li><a href="https://linkedin.com/in/poornima545" className="fs-3 me-3 icon" target="_blank" rel="noopener noreferrer"><i className="bi bi-linkedin"></i></a></li>
+                            <li><a href="https://x.com/Poornima545" className="fs-3 icon" target="_blank"><i className="bi bi-twitter"rel="noopener noreferrer"></i></a></li>
                         </ul>
                     </article>
                     <div className="homeImge d-none d-md-block">

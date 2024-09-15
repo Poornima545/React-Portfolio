@@ -6,7 +6,7 @@ export default function FirstProject() {
     return (
         <>
             <div className="card">
-                <img src={FirstImage} className="card-img-top" alt="First Image" />
+                <img src={FirstImage} className="card-img-top" alt="Team member profile slider project" />
                 <div className="card-body p-4">
                     <h5 className="card-title">Slider Project</h5>
                     <p className="card-text lh-lg mt-3">The Slider Project is a React application that showcases a carousel of team member profiles. Each slide includes an image, name, job title, and a brief description, with customized navigation icons for a smooth user experience.</p>

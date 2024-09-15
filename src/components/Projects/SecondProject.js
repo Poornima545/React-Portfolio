@@ -6,7 +6,7 @@ export default function SecondProject() {
     return (
         <>
             <div className="card">
-                <img src={SecondImage} className="card-img-top" alt="Second Image" />
+                <img src={SecondImage} className="card-img-top" alt="Team member profile slider project" />
                 <div className="card-body p-4">
                     <h5 className="card-title">Second Project</h5>
                     <p className="card-text lh-lg mt-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.</p>

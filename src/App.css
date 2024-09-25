@@ -76,11 +76,19 @@ body {
     padding: 62px 0;
 }
 
-.card-text{
+.card-text {
     font-size: 14px;
 }
 
+.card {
+    height: 560px;
+}
+
+.social-icons {
+    bottom: 0;
+}
+
 /* Resume */
-.resume-container{
+.resume-container {
     padding: 100px 0;
 }

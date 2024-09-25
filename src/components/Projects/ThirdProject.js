@@ -9,7 +9,7 @@ export default function ThirdProject() {
                 <img src={ThirdImage} className="card-img-top" alt="Team member profile slider project" />
                 <div className="card-body p-4">
                     <h5 className="card-title">Third Project</h5>
-                    <p className="card-text lh-lg mt-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.</p>
+                    <p className="card-text lh-lg mt-3 pb-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aperiam porro impedit tenetur quo hic omnis doloribus dolores enim deleniti.</p>
                     <div className='d-flex align-items-center'>
                         <a href="https://www.example.com"
                             target="_blank"

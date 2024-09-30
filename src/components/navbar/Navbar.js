@@ -1,5 +1,5 @@
 import React from 'react';
-import Home from './Home'
+import Home from '../home/Home';
 
 export default function Navbar() {
     return (
@@ -20,10 +20,8 @@ export default function Navbar() {
                         </ul>
                     </nav>
                 </header>
-                <Home />
+              <Home/>
             </section>
         </>
     )
 }
-
-

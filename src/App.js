@@ -1,3 +1,4 @@
+
 import './App.css';
 import React from 'react';
 import About from './components/about/About';
@@ -13,7 +14,7 @@ function App() {
       <TechStack />
       <About />
       <Project />
-      <Resume/>
+      <Resume />
     </div>
   );
 }
